@@ -1,0 +1,64 @@
+.rwd-table {
+  margin: 1em 0;
+  min-width: 8.5em;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+  border-radius: .4em;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 8.5em;
+  display: /*inline-*/block;
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+
+/* When the screen is 640px or larger... */
+@media screen and (min-width: 640px) {
+  .rwd-table td:before {
+    display: none;
+  }
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+    border-radius: 0;
+    font-size: normal;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+.rwd-table {
+  border-radius: .4em;
+  overflow: hidden;
+}
+.rwd-table > thead > tr {
+    vertical-align: bottom;
+}
+.rwd-table > tbody > tr {
+    vertical-align: top;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media screen and (min-width: 360px) {
+  .rwd-table th, .rwd-table td {
+    padding: .5em !important;
+  }
+}

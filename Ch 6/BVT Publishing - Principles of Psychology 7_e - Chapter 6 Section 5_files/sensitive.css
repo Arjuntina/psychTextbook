@@ -1,0 +1,38 @@
+/** SENSITIVE CONTENT **/
+/* The div containing the image with sensitive content has a class of 'sensitive' */
+div.sensitive img {
+    position: relative;
+    opacity: 0.5;
+    -webkit-filter: blur(16px);
+    filter: grayscale(100%) blur(16px);
+}
+/* This is the text that gets layered on top of the 'sensitive' content, and is removed on click */
+div.target {
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #495057;
+    border-radius: 10px;
+    word-break: inherit;
+    margin: 10px auto;
+    padding: 30px 20px 0 20px;
+    max-width: 80%;
+    line-height: 1.3em;
+    text-decoration: none;
+    color: #802;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+/* This is the element that resembles a button for people to click on */
+div.unhideblur {
+    cursor: pointer;
+    border: 1px solid #495057;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 5px 10px;
+    max-width: 310px;
+    text-align: center;
+    color: green;
+    font-size: 16px;
+}

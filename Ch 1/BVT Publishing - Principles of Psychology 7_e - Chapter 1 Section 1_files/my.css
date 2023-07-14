@@ -1,0 +1,72 @@
+
+.my-btn {
+    background-color:#333;
+    color:#fff;
+}
+
+
+
+/** bookNote **/
+.bookNote {
+	cursor:pointer;
+	text-indent:0px !important;
+	margin-right:4px;
+}
+.bookNoteInstructor { background-color:#ff9f98; }
+.bookNoteStudent { background-color:gold; }
+
+.removeNoteBtn {
+	float:right;
+	text-decoration:none;
+	color:#ccc;
+}
+.removeNoteBtn:hover {
+	color:#3085d6;
+}
+.my-note {
+    font-size:18px;
+    padding:8px;
+}
+.my-note i {
+    -color:gold;
+    margin-right:8px;
+}
+.bookNoteProblem {
+	background-color:orangered;
+}
+.bookNoteProblem i {
+	color:orangered;
+}
+
+/** TOOLTIP **/
+.w3-tooltip { cursor:pointer; }
+.my-tooltip {
+	position:absolute; 
+	padding:6px;
+	border-radius:8px;
+	display:block;
+	font-family:Arial;
+	background-color:#efefef;
+	color:#666;
+	border:1px solid #ccc;
+	min-width:200px;
+	line-height:1.3em;
+}
+.my-tooltip2-toggle {
+}
+.my-tooltip2 {
+	z-index:1001;
+	position:absolute; 
+	padding:6px;
+	border-radius:8px;
+	font-family:Arial;
+	width:275px;
+	line-height:1.3em;
+	
+	display:none;
+	
+	cursor:default; 
+	color:#000; 
+	background-color:#f1f6fd; 
+	border:1px solid #87b1f1; 
+}
