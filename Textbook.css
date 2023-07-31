@@ -1,0 +1,22 @@
+
+:root {
+--psychologyBlue: #175dc8;
+}
+
+.chapter-button{
+background-color: white;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 250px;
+color: var(--psychologyBlue);
+border-width: 0px;
+border-bottom: 5px solid var(--psychologyBlue);
+}
+
+.chapter-button:hover{
+background-color: var(--psychologyBlue);
+color: white;
+border-bottom: 5px solid white;
+}
