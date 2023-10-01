@@ -1,22 +1,59 @@
-
 :root {
---psychologyBlue: #175dc8;
+  --psychologyBlue: #175dc8;
+}
+
+.book-title{
+  background-color: var(--psychologyBlue);
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.subtitle{
+  font-size: 20px;
 }
 
 .chapter-button{
-background-color: white;
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 10px;
-padding-bottom: 10px;
-width: 250px;
-color: var(--psychologyBlue);
-border-width: 0px;
-border-bottom: 5px solid var(--psychologyBlue);
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  color: var(--psychologyBlue);
+  border-width: 0px;
+  border-bottom: 5px solid var(--psychologyBlue);
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .chapter-button:hover{
-background-color: var(--psychologyBlue);
-color: white;
-border-bottom: 5px solid white;
+  background-color: var(--psychologyBlue);
+  color: white;
 }
+
+.chapter-button:active{
+  background-color: green;
+}
+
+.chapter-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.lesson-button-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.lesson-link{
+  display:inline-block;
+}
+
+
+
+
